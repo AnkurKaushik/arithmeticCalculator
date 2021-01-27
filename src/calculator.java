@@ -1,21 +1,44 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class calculator {
-    public void add(){
+    private static double add(double f, double s){
+        return f+s;
     }
-    public void subtract(){
+    private void subtract(){
     }
-    public void multiply(){
+    private void multiply(){
     }
-    public void divide(){
+    private void divide(){
     }
 
+    private static double[] prompt(Scanner s)
+    {
+        System.out.println("Please input your first number");
+        double first = s.nextDouble();
+        System.out.println("Please input your second number");
+        double second = s.nextDouble();
+
+        return new double[]{first, second};
+    }
+
+    private static void promptSecond()
+    {
+        System.out.println("Please input your second number");
+    }
     public static void main(String[] args){
         boolean running = true;
+
+        Scanner s = new Scanner(System.in);
         while(running)
         {
-            String userInput = "";
+            System.out.println("Please enter the operation you would like to perform (add, subtract, multiply, divide) \nType 'quit' to quit");
+            String userInput = s.nextLine().toLowerCase();
             switch(userInput)
             {
                 case "add":
+                    double[] ary = prompt(s);
+                    System.out.println("\nThe result of " + ary[0] + " + " + ary[1] + " is " + add(ary[0], ary[1]) + "\n");
                     break;
                 case "subtract":
                     break;
@@ -25,6 +48,9 @@ public class calculator {
                     break;
                 case "quit":
                     running = false;
+                    break;
+                default:
+                    System.out.println("Please enter a valid operation (add, subtract, multiply, divide)");
                     break;
             }
         }
