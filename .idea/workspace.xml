@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83a4bf96-4909-4075-936a-2913e8369a31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmeticCalculator/calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmeticCalculator/calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="83a4bf96-4909-4075-936a-2913e8369a31" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611784310532</updated>
-      <workItem from="1611784325286" duration="4422000" />
+      <workItem from="1611784325286" duration="4674000" />
     </task>
     <servers />
   </component>
